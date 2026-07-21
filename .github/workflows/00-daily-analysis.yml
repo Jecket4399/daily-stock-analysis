@@ -59,7 +59,23 @@ jobs:
       - name: 创建必要目录
         run: |
           mkdir -p data logs reports
-      
+
+      - name: 从全市场筛选引擎拉取动量突破股票
+        id: screener
+        run: |
+          echo "🔍 从 stock-screener 拉取全市场动量突破股票..."
+          python scripts/fetch_screened_stocks.py --top 25 --fallback "${STOCK_LIST_CONFIG:-AAPL,MSFT,NVDA,GOOGL,AMZN,META}" > /tmp/screened_stocks.txt 2>&1 || true
+          cat /tmp/screened_stocks.txt
+          # 提取实际的股票列表（最后一行是逗号分隔的 ticker 列表）
+          SCREENED=$(tail -1 /tmp/screened_stocks.txt)
+          # 验证格式：必须包含逗号且至少有一个字母
+          if echo "$SCREENED" | grep -qE '^[A-Z]{1,5}(,[A-Z]{1,5})*$'; then
+            echo "✅ 筛选成功: $SCREENED"
+            echo "SCREENED_STOCKS=$SCREENED" >> $GITHUB_ENV
+          else
+            echo "⚠️  筛选结果格式异常，将使用配置的自选股"
+          fi
+
       - name: 执行股票分析
         env:
           # ==========================================
@@ -408,11 +424,15 @@ jobs:
           REALTIME_SOURCE_PRIORITY: ${{ vars.REALTIME_SOURCE_PRIORITY || 'tencent,akshare_sina,efinance,akshare_em' }}
           
         run: |
-          # 解析自选股配置：
-          # 1. Repository/Environment secrets 或 Repository variables（STOCK_LIST_CONFIG）
-          # 2. 同名 Environment variables 注入的 runner 环境变量（STOCK_LIST）
-          # 3. 最小默认值
-          if [ -n "${STOCK_LIST_CONFIG:-}" ]; then
+          # 解析自选股配置（优先级从高到低）：
+          # 1. 全市场筛选引擎动态结果（SCREENED_STOCKS）
+          # 2. Repository/Environment secrets 或 Repository variables（STOCK_LIST_CONFIG）
+          # 3. 同名 Environment variables 注入的 runner 环境变量（STOCK_LIST）
+          # 4. 最小默认值
+          if [ -n "${SCREENED_STOCKS:-}" ]; then
+            export STOCK_LIST="$SCREENED_STOCKS"
+            echo "🔍 使用全市场筛选引擎结果"
+          elif [ -n "${STOCK_LIST_CONFIG:-}" ]; then
             export STOCK_LIST="$STOCK_LIST_CONFIG"
           elif [ -z "${STOCK_LIST:-}" ]; then
             export STOCK_LIST="600519"
