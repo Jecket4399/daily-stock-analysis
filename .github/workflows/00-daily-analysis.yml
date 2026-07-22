@@ -545,7 +545,34 @@ jobs:
           else
             python main.py $FORCE_RUN_ARG
           fi
-      
+
+      - name: 生成 JSON 决策摘要（供 AlpacaTradingAgent 集成使用）
+        if: always()
+        run: |
+          echo "📋 生成决策 JSON 摘要..."
+          python -c "
+          import re, json, os, glob
+          results = []
+          report_files = glob.glob('reports/**/report_*.md', recursive=True) + glob.glob('reports/report_*.md')
+          for f in report_files:
+              content = open(f, encoding='utf-8').read()
+              for line in content.split('\n'):
+                  m = re.match(r'.*\((\w+)\)[：:]\s*(\S+)\s*\|\s*评分\s*(\d+)\s*\|\s*(.+)', line)
+                  if m:
+                      ticker, action_cn, score, trend = m.groups()
+                      action_map = {'买入': 'BUY', '持有': 'HOLD', '持有观察': 'HOLD', '卖出': 'SELL', '减仓': 'SELL', '观望': 'HOLD'}
+                      results.append({
+                          'ticker': ticker, 'action': action_map.get(action_cn, 'HOLD'),
+                          'score': int(score), 'trend': trend.strip(), 'action_cn': action_cn
+                      })
+          os.makedirs('reports/json', exist_ok=True)
+          with open('reports/json/decision_signals.json', 'w') as out:
+              json.dump(results, out, ensure_ascii=False, indent=2)
+          print(f'✅ 生成 {len(results)} 条决策信号')
+          buys = [r for r in results if r['action'] == 'BUY']
+          print(f'   其中 BUY: {len(buys)} 只 ({chr(44).join(r[\"ticker\"] for r in buys)})')
+          "
+
       - name: 上传分析报告
         uses: actions/upload-artifact@v6
         if: always()
