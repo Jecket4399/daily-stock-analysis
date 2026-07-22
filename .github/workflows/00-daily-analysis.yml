@@ -35,7 +35,7 @@ jobs:
     # 推荐位置仍是 Settings -> Secrets and variables -> Actions -> Repository variables。
     environment: STOCK_LIST
     # 添加超时限制，防止任务卡死
-    timeout-minutes: ${{ fromJSON(vars.ANALYSIS_TIMEOUT_MINUTES || '30') }}
+    timeout-minutes: ${{ fromJSON(vars.ANALYSIS_TIMEOUT_MINUTES || '60') }}
     
     steps:
       - name: 随机延迟（避免固定时间访问）
@@ -66,7 +66,7 @@ jobs:
           FALLBACK_STOCKS: ${{ vars.STOCK_LIST || secrets.STOCK_LIST }}
         run: |
           echo "🔍 从 stock-screener 拉取全市场动量突破股票..."
-          python scripts/fetch_screened_stocks.py --top 25 --fallback "${FALLBACK_STOCKS:-AAPL,MSFT,NVDA,GOOGL,AMZN,META}" > /tmp/screened_stocks.txt 2>/tmp/screener_stderr.txt || true
+          python scripts/fetch_screened_stocks.py --top 50 --fallback "${FALLBACK_STOCKS:-AAPL,MSFT,NVDA,GOOGL,AMZN,META}" > /tmp/screened_stocks.txt 2>/tmp/screener_stderr.txt || true
 
           echo "--- stderr ---"
           cat /tmp/screener_stderr.txt
