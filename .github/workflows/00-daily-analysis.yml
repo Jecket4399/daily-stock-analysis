@@ -31,6 +31,8 @@ concurrency:
 jobs:
   analyze:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     # 兼容误将 STOCK_LIST 配到同名 Environment variables 的场景；
     # 推荐位置仍是 Settings -> Secrets and variables -> Actions -> Repository variables。
     environment: STOCK_LIST
@@ -572,6 +574,20 @@ jobs:
           buys = [r for r in results if r['action'] == 'BUY']
           print(f'   其中 BUY: {len(buys)} 只 ({chr(44).join(r[\"ticker\"] for r in buys)})')
           "
+
+      - name: 提交 JSON 决策摘要到仓库
+        if: always()
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "github-actions"
+          git add reports/json/decision_signals.json 2>/dev/null || true
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: 更新决策信号 JSON [skip ci]"
+            git push origin main
+            echo "✅ JSON 已提交到仓库"
+          else
+            echo "无变更"
+          fi
 
       - name: 上传分析报告
         uses: actions/upload-artifact@v6
