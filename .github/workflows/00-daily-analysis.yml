@@ -559,13 +559,13 @@ jobs:
           for f in report_files:
               content = open(f, encoding='utf-8').read()
               for line in content.split('\n'):
-                  m = re.match(r'.*\((\w+)\)\**[：:]\s*(\S+)\s*\|\s*评分\s*(\d+)', line)
+                  m = re.match(r'.*\((\w+)\)\**[：:]\s*(\S+)\s*\|\s*评分\s*(\d+)\s*\|\s*(.+)', line)
                   if m:
                       ticker, action_cn, score, trend = m.groups()
                       action_map = {'买入': 'BUY', '持有': 'HOLD', '持有观察': 'HOLD', '卖出': 'SELL', '减仓': 'SELL', '观望': 'HOLD'}
                       results.append({
                           'ticker': ticker, 'action': action_map.get(action_cn, 'HOLD'),
-                          'score': int(score), 'trend': trend.strip(), 'action_cn': action_cn
+                          'score': int(score), 'trend': trend.strip()[:50], 'action_cn': action_cn
                       })
           os.makedirs('reports/json', exist_ok=True)
           with open('reports/json/decision_signals.json', 'w') as out:
