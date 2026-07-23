@@ -1,0 +1,352 @@
+[
+  {
+    "ticker": "TMP",
+    "action": "BUY",
+    "score": 69,
+    "action_cn": "买入",
+    "trend": ""
+  },
+  {
+    "ticker": "PNTG",
+    "action": "BUY",
+    "score": 69,
+    "action_cn": "买入",
+    "trend": ""
+  },
+  {
+    "ticker": "FRST",
+    "action": "BUY",
+    "score": 66,
+    "action_cn": "买入",
+    "trend": ""
+  },
+  {
+    "ticker": "SUN",
+    "action": "BUY",
+    "score": 65,
+    "action_cn": "买入",
+    "trend": ""
+  },
+  {
+    "ticker": "ONB",
+    "action": "BUY",
+    "score": 65,
+    "action_cn": "买入",
+    "trend": ""
+  },
+  {
+    "ticker": "ALRS",
+    "action": "HOLD",
+    "score": 59,
+    "action_cn": "持有",
+    "trend": ""
+  },
+  {
+    "ticker": "RSI",
+    "action": "HOLD",
+    "score": 59,
+    "action_cn": "持有",
+    "trend": ""
+  },
+  {
+    "ticker": "WELL",
+    "action": "HOLD",
+    "score": 59,
+    "action_cn": "持有",
+    "trend": ""
+  },
+  {
+    "ticker": "FBNC",
+    "action": "HOLD",
+    "score": 59,
+    "action_cn": "持有",
+    "trend": ""
+  },
+  {
+    "ticker": "PTGX",
+    "action": "HOLD",
+    "score": 59,
+    "action_cn": "持有",
+    "trend": ""
+  },
+  {
+    "ticker": "AMN",
+    "action": "HOLD",
+    "score": 59,
+    "action_cn": "持有",
+    "trend": ""
+  },
+  {
+    "ticker": "LPG",
+    "action": "HOLD",
+    "score": 59,
+    "action_cn": "持有",
+    "trend": ""
+  },
+  {
+    "ticker": "WLY",
+    "action": "HOLD",
+    "score": 59,
+    "action_cn": "持有",
+    "trend": ""
+  },
+  {
+    "ticker": "PRG",
+    "action": "HOLD",
+    "score": 59,
+    "action_cn": "持有",
+    "trend": ""
+  },
+  {
+    "ticker": "ETON",
+    "action": "HOLD",
+    "score": 59,
+    "action_cn": "持有",
+    "trend": ""
+  },
+  {
+    "ticker": "INDB",
+    "action": "HOLD",
+    "score": 59,
+    "action_cn": "持有",
+    "trend": ""
+  },
+  {
+    "ticker": "OBK",
+    "action": "HOLD",
+    "score": 59,
+    "action_cn": "持有",
+    "trend": ""
+  },
+  {
+    "ticker": "RELY",
+    "action": "HOLD",
+    "score": 59,
+    "action_cn": "持有",
+    "trend": ""
+  },
+  {
+    "ticker": "OOMA",
+    "action": "HOLD",
+    "score": 59,
+    "action_cn": "持有",
+    "trend": ""
+  },
+  {
+    "ticker": "MFC",
+    "action": "HOLD",
+    "score": 59,
+    "action_cn": "持有",
+    "trend": ""
+  },
+  {
+    "ticker": "PACS",
+    "action": "HOLD",
+    "score": 59,
+    "action_cn": "持有",
+    "trend": ""
+  },
+  {
+    "ticker": "CFFN",
+    "action": "HOLD",
+    "score": 59,
+    "action_cn": "持有",
+    "trend": ""
+  },
+  {
+    "ticker": "BLFS",
+    "action": "HOLD",
+    "score": 59,
+    "action_cn": "持有",
+    "trend": ""
+  },
+  {
+    "ticker": "WSFS",
+    "action": "HOLD",
+    "score": 59,
+    "action_cn": "持有",
+    "trend": ""
+  },
+  {
+    "ticker": "MSM",
+    "action": "HOLD",
+    "score": 59,
+    "action_cn": "持有",
+    "trend": ""
+  },
+  {
+    "ticker": "PBI",
+    "action": "HOLD",
+    "score": 59,
+    "action_cn": "持有",
+    "trend": ""
+  },
+  {
+    "ticker": "PCG",
+    "action": "HOLD",
+    "score": 59,
+    "action_cn": "持有",
+    "trend": ""
+  },
+  {
+    "ticker": "SCHL",
+    "action": "HOLD",
+    "score": 59,
+    "action_cn": "持有",
+    "trend": ""
+  },
+  {
+    "ticker": "SKWD",
+    "action": "HOLD",
+    "score": 59,
+    "action_cn": "持有",
+    "trend": ""
+  },
+  {
+    "ticker": "UNF",
+    "action": "HOLD",
+    "score": 59,
+    "action_cn": "持有",
+    "trend": ""
+  },
+  {
+    "ticker": "YPF",
+    "action": "HOLD",
+    "score": 59,
+    "action_cn": "持有",
+    "trend": ""
+  },
+  {
+    "ticker": "SIF",
+    "action": "HOLD",
+    "score": 58,
+    "action_cn": "观望",
+    "trend": ""
+  },
+  {
+    "ticker": "GABC",
+    "action": "HOLD",
+    "score": 55,
+    "action_cn": "观望",
+    "trend": ""
+  },
+  {
+    "ticker": "ASTH",
+    "action": "HOLD",
+    "score": 54,
+    "action_cn": "观望",
+    "trend": ""
+  },
+  {
+    "ticker": "NET",
+    "action": "HOLD",
+    "score": 54,
+    "action_cn": "观望",
+    "trend": ""
+  },
+  {
+    "ticker": "PAYS",
+    "action": "HOLD",
+    "score": 52,
+    "action_cn": "观望",
+    "trend": ""
+  },
+  {
+    "ticker": "DDOG",
+    "action": "HOLD",
+    "score": 51,
+    "action_cn": "观望",
+    "trend": ""
+  },
+  {
+    "ticker": "ES",
+    "action": "HOLD",
+    "score": 51,
+    "action_cn": "观望",
+    "trend": ""
+  },
+  {
+    "ticker": "SLDE",
+    "action": "HOLD",
+    "score": 51,
+    "action_cn": "观望",
+    "trend": ""
+  },
+  {
+    "ticker": "SI",
+    "action": "HOLD",
+    "score": 51,
+    "action_cn": "观望",
+    "trend": ""
+  },
+  {
+    "ticker": "TWLO",
+    "action": "HOLD",
+    "score": 49,
+    "action_cn": "观望",
+    "trend": ""
+  },
+  {
+    "ticker": "NBIX",
+    "action": "HOLD",
+    "score": 48,
+    "action_cn": "观望",
+    "trend": ""
+  },
+  {
+    "ticker": "PTRN",
+    "action": "HOLD",
+    "score": 47,
+    "action_cn": "观望",
+    "trend": ""
+  },
+  {
+    "ticker": "COMP",
+    "action": "HOLD",
+    "score": 47,
+    "action_cn": "观望",
+    "trend": ""
+  },
+  {
+    "ticker": "ASND",
+    "action": "HOLD",
+    "score": 47,
+    "action_cn": "观望",
+    "trend": ""
+  },
+  {
+    "ticker": "ED",
+    "action": "HOLD",
+    "score": 47,
+    "action_cn": "观望",
+    "trend": ""
+  },
+  {
+    "ticker": "CRWD",
+    "action": "HOLD",
+    "score": 45,
+    "action_cn": "观望",
+    "trend": ""
+  },
+  {
+    "ticker": "ZETA",
+    "action": "HOLD",
+    "score": 43,
+    "action_cn": "观望",
+    "trend": ""
+  },
+  {
+    "ticker": "FRD",
+    "action": "HOLD",
+    "score": 41,
+    "action_cn": "观望",
+    "trend": ""
+  },
+  {
+    "ticker": "AMD",
+    "action": "SELL",
+    "score": 31,
+    "action_cn": "减仓",
+    "trend": ""
+  }
+]
