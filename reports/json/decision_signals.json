@@ -1,59 +1,31 @@
 [
   {
-    "ticker": "WSFS",
+    "ticker": "BLFS",
     "action": "BUY",
-    "score": 74,
+    "score": 70,
     "trend": "看多",
     "action_cn": "买入"
   },
   {
-    "ticker": "AMD",
+    "ticker": "SUN",
     "action": "BUY",
-    "score": 71,
-    "trend": "震荡",
+    "score": 65,
+    "trend": "看多",
     "action_cn": "买入"
   },
   {
-    "ticker": "INDB",
+    "ticker": "GABC",
     "action": "BUY",
-    "score": 65,
+    "score": 62,
     "trend": "看多",
     "action_cn": "买入"
   },
   {
     "ticker": "PACS",
     "action": "BUY",
-    "score": 65,
-    "trend": "震荡偏多",
-    "action_cn": "买入"
-  },
-  {
-    "ticker": "MSM",
-    "action": "BUY",
-    "score": 65,
+    "score": 62,
     "trend": "看多",
     "action_cn": "买入"
-  },
-  {
-    "ticker": "TMP",
-    "action": "BUY",
-    "score": 61,
-    "trend": "震荡",
-    "action_cn": "买入"
-  },
-  {
-    "ticker": "PCG",
-    "action": "BUY",
-    "score": 60,
-    "trend": "看多",
-    "action_cn": "买入"
-  },
-  {
-    "ticker": "SUN",
-    "action": "HOLD",
-    "score": 59,
-    "trend": "看多",
-    "action_cn": "持有"
   },
   {
     "ticker": "ALRS",
@@ -63,21 +35,7 @@
     "action_cn": "持有"
   },
   {
-    "ticker": "WELL",
-    "action": "HOLD",
-    "score": 59,
-    "trend": "看多",
-    "action_cn": "持有"
-  },
-  {
     "ticker": "PTGX",
-    "action": "HOLD",
-    "score": 59,
-    "trend": "看多",
-    "action_cn": "持有"
-  },
-  {
-    "ticker": "AMN",
     "action": "HOLD",
     "score": 59,
     "trend": "看多",
@@ -98,6 +56,13 @@
     "action_cn": "持有"
   },
   {
+    "ticker": "INDB",
+    "action": "HOLD",
+    "score": 59,
+    "trend": "看多",
+    "action_cn": "持有"
+  },
+  {
     "ticker": "OBK",
     "action": "HOLD",
     "score": 59,
@@ -105,14 +70,42 @@
     "action_cn": "持有"
   },
   {
-    "ticker": "MFC",
+    "ticker": "NBIX",
     "action": "HOLD",
     "score": 59,
-    "trend": "强烈看多",
+    "trend": "看多",
     "action_cn": "持有"
   },
   {
-    "ticker": "BLFS",
+    "ticker": "WSFS",
+    "action": "HOLD",
+    "score": 59,
+    "trend": "看多",
+    "action_cn": "持有"
+  },
+  {
+    "ticker": "MSM",
+    "action": "HOLD",
+    "score": 59,
+    "trend": "看多",
+    "action_cn": "持有"
+  },
+  {
+    "ticker": "PNTG",
+    "action": "HOLD",
+    "score": 59,
+    "trend": "看多",
+    "action_cn": "持有"
+  },
+  {
+    "ticker": "PBI",
+    "action": "HOLD",
+    "score": 59,
+    "trend": "看多",
+    "action_cn": "持有"
+  },
+  {
+    "ticker": "PCG",
     "action": "HOLD",
     "score": 59,
     "trend": "看多",
@@ -126,221 +119,193 @@
     "action_cn": "持有"
   },
   {
-    "ticker": "ED",
+    "ticker": "ES",
     "action": "HOLD",
-    "score": 55,
+    "score": 58,
     "trend": "震荡",
     "action_cn": "观望"
   },
   {
-    "ticker": "NBIX",
+    "ticker": "CFFN",
     "action": "HOLD",
-    "score": 55,
+    "score": 58,
     "trend": "震荡",
     "action_cn": "观望"
   },
   {
     "ticker": "SIF",
     "action": "HOLD",
-    "score": 55,
+    "score": 56,
     "trend": "看多",
     "action_cn": "观望"
   },
   {
-    "ticker": "UNF",
+    "ticker": "AMD",
     "action": "HOLD",
     "score": 55,
-    "trend": "震荡",
+    "trend": "震荡偏弱",
     "action_cn": "观望"
   },
   {
-    "ticker": "FRD",
+    "ticker": "WELL",
     "action": "HOLD",
-    "score": 54,
-    "trend": "震荡",
-    "action_cn": "观望"
-  },
-  {
-    "ticker": "ASND",
-    "action": "HOLD",
-    "score": 52,
-    "trend": "看空",
-    "action_cn": "观望"
-  },
-  {
-    "ticker": "ES",
-    "action": "HOLD",
-    "score": 52,
-    "trend": "震荡",
+    "score": 55,
+    "trend": "震荡偏多",
     "action_cn": "观望"
   },
   {
     "ticker": "FBNC",
     "action": "HOLD",
-    "score": 51,
-    "trend": "震荡偏弱",
-    "action_cn": "观望"
-  },
-  {
-    "ticker": "PRG",
-    "action": "HOLD",
-    "score": 51,
-    "trend": "看空",
-    "action_cn": "观望"
-  },
-  {
-    "ticker": "NET",
-    "action": "HOLD",
-    "score": 51,
-    "trend": "震荡偏弱",
-    "action_cn": "观望"
-  },
-  {
-    "ticker": "CRWD",
-    "action": "HOLD",
-    "score": 51,
-    "trend": "看空",
-    "action_cn": "观望"
-  },
-  {
-    "ticker": "CFFN",
-    "action": "HOLD",
-    "score": 51,
+    "score": 55,
     "trend": "震荡偏弱",
     "action_cn": "观望"
   },
   {
     "ticker": "SLDE",
     "action": "HOLD",
-    "score": 51,
-    "trend": "震荡偏空",
-    "action_cn": "观望"
-  },
-  {
-    "ticker": "PNTG",
-    "action": "HOLD",
-    "score": 51,
-    "trend": "震荡偏弱",
-    "action_cn": "观望"
-  },
-  {
-    "ticker": "PBI",
-    "action": "HOLD",
-    "score": 51,
-    "trend": "震荡偏弱",
-    "action_cn": "观望"
-  },
-  {
-    "ticker": "SI",
-    "action": "HOLD",
-    "score": 51,
-    "trend": "看空",
+    "score": 55,
+    "trend": "震荡",
     "action_cn": "观望"
   },
   {
     "ticker": "ONB",
     "action": "HOLD",
-    "score": 51,
+    "score": 55,
     "trend": "震荡",
     "action_cn": "观望"
   },
   {
-    "ticker": "SCHL",
+    "ticker": "UNF",
+    "action": "HOLD",
+    "score": 55,
+    "trend": "震荡偏多",
+    "action_cn": "观望"
+  },
+  {
+    "ticker": "MFC",
+    "action": "HOLD",
+    "score": 54,
+    "trend": "看多",
+    "action_cn": "观望"
+  },
+  {
+    "ticker": "SKWD",
+    "action": "HOLD",
+    "score": 54,
+    "trend": "震荡",
+    "action_cn": "观望"
+  },
+  {
+    "ticker": "WLY",
     "action": "HOLD",
     "score": 51,
     "trend": "震荡偏空",
     "action_cn": "观望"
   },
   {
-    "ticker": "PAYS",
+    "ticker": "TMP",
+    "action": "HOLD",
+    "score": 51,
+    "trend": "看多但超买",
+    "action_cn": "观望"
+  },
+  {
+    "ticker": "DDOG",
     "action": "HOLD",
     "score": 50,
     "trend": "震荡",
     "action_cn": "观望"
   },
   {
-    "ticker": "DDOG",
+    "ticker": "PRG",
     "action": "HOLD",
-    "score": 48,
-    "trend": "看空",
+    "score": 50,
+    "trend": "震荡",
     "action_cn": "观望"
   },
   {
-    "ticker": "GABC",
+    "ticker": "NET",
+    "action": "HOLD",
+    "score": 50,
+    "trend": "震荡偏弱",
+    "action_cn": "观望"
+  },
+  {
+    "ticker": "OOMA",
     "action": "HOLD",
     "score": 48,
-    "trend": "震荡偏弱",
+    "trend": "震荡",
     "action_cn": "观望"
   },
   {
     "ticker": "RSI",
     "action": "HOLD",
     "score": 47,
-    "trend": "看空",
+    "trend": "震荡偏弱",
     "action_cn": "观望"
   },
   {
-    "ticker": "OOMA",
+    "ticker": "RELY",
+    "action": "HOLD",
+    "score": 47,
+    "trend": "震荡偏弱",
+    "action_cn": "观望"
+  },
+  {
+    "ticker": "CRWD",
+    "action": "HOLD",
+    "score": 47,
+    "trend": "震荡偏弱",
+    "action_cn": "观望"
+  },
+  {
+    "ticker": "SI",
     "action": "HOLD",
     "score": 47,
     "trend": "震荡偏空",
     "action_cn": "观望"
   },
   {
-    "ticker": "FRST",
+    "ticker": "ASND",
     "action": "HOLD",
-    "score": 47,
+    "score": 46,
     "trend": "看空",
     "action_cn": "观望"
   },
   {
-    "ticker": "WLY",
+    "ticker": "AMN",
     "action": "HOLD",
     "score": 45,
-    "trend": "看空",
+    "trend": "震荡偏空",
     "action_cn": "观望"
   },
   {
-    "ticker": "SKWD",
+    "ticker": "ED",
     "action": "HOLD",
     "score": 45,
     "trend": "震荡",
     "action_cn": "观望"
   },
   {
-    "ticker": "RELY",
+    "ticker": "PAYS",
     "action": "HOLD",
-    "score": 42,
-    "trend": "震荡偏空",
+    "score": 45,
+    "trend": "震荡偏多",
     "action_cn": "观望"
   },
   {
-    "ticker": "PTRN",
-    "action": "SELL",
-    "score": 37,
+    "ticker": "FRST",
+    "action": "HOLD",
+    "score": 43,
     "trend": "看空",
-    "action_cn": "减仓"
+    "action_cn": "观望"
   },
   {
-    "ticker": "TWLO",
-    "action": "SELL",
-    "score": 37,
+    "ticker": "SCHL",
+    "action": "HOLD",
+    "score": 42,
     "trend": "看空",
-    "action_cn": "减仓"
-  },
-  {
-    "ticker": "ASTH",
-    "action": "SELL",
-    "score": 35,
-    "trend": "看空",
-    "action_cn": "减仓"
-  },
-  {
-    "ticker": "COMP",
-    "action": "SELL",
-    "score": 35,
-    "trend": "看空",
-    "action_cn": "减仓"
+    "action_cn": "观望"
   },
   {
     "ticker": "ZETA",
@@ -350,60 +315,67 @@
     "action_cn": "减仓"
   },
   {
-    "ticker": "WSFS",
+    "ticker": "FRD",
+    "action": "SELL",
+    "score": 34,
+    "trend": "震荡偏空",
+    "action_cn": "减仓"
+  },
+  {
+    "ticker": "PTRN",
+    "action": "SELL",
+    "score": 34,
+    "trend": "强烈看空",
+    "action_cn": "减仓"
+  },
+  {
+    "ticker": "ASTH",
+    "action": "SELL",
+    "score": 34,
+    "trend": "看空",
+    "action_cn": "减仓"
+  },
+  {
+    "ticker": "COMP",
+    "action": "SELL",
+    "score": 30,
+    "trend": "看空",
+    "action_cn": "减仓"
+  },
+  {
+    "ticker": "TWLO",
+    "action": "SELL",
+    "score": 30,
+    "trend": "看空",
+    "action_cn": "减仓"
+  },
+  {
+    "ticker": "BLFS",
     "action": "BUY",
-    "score": 74,
+    "score": 70,
     "trend": "看多",
     "action_cn": "买入"
   },
   {
-    "ticker": "AMD",
+    "ticker": "SUN",
     "action": "BUY",
-    "score": 71,
-    "trend": "震荡",
+    "score": 65,
+    "trend": "看多",
     "action_cn": "买入"
   },
   {
-    "ticker": "INDB",
+    "ticker": "GABC",
     "action": "BUY",
-    "score": 65,
+    "score": 62,
     "trend": "看多",
     "action_cn": "买入"
   },
   {
     "ticker": "PACS",
     "action": "BUY",
-    "score": 65,
-    "trend": "震荡偏多",
-    "action_cn": "买入"
-  },
-  {
-    "ticker": "MSM",
-    "action": "BUY",
-    "score": 65,
+    "score": 62,
     "trend": "看多",
     "action_cn": "买入"
-  },
-  {
-    "ticker": "TMP",
-    "action": "BUY",
-    "score": 61,
-    "trend": "震荡",
-    "action_cn": "买入"
-  },
-  {
-    "ticker": "PCG",
-    "action": "BUY",
-    "score": 60,
-    "trend": "看多",
-    "action_cn": "买入"
-  },
-  {
-    "ticker": "SUN",
-    "action": "HOLD",
-    "score": 59,
-    "trend": "看多",
-    "action_cn": "持有"
   },
   {
     "ticker": "ALRS",
@@ -413,21 +385,7 @@
     "action_cn": "持有"
   },
   {
-    "ticker": "WELL",
-    "action": "HOLD",
-    "score": 59,
-    "trend": "看多",
-    "action_cn": "持有"
-  },
-  {
     "ticker": "PTGX",
-    "action": "HOLD",
-    "score": 59,
-    "trend": "看多",
-    "action_cn": "持有"
-  },
-  {
-    "ticker": "AMN",
     "action": "HOLD",
     "score": 59,
     "trend": "看多",
@@ -448,6 +406,13 @@
     "action_cn": "持有"
   },
   {
+    "ticker": "INDB",
+    "action": "HOLD",
+    "score": 59,
+    "trend": "看多",
+    "action_cn": "持有"
+  },
+  {
     "ticker": "OBK",
     "action": "HOLD",
     "score": 59,
@@ -455,14 +420,42 @@
     "action_cn": "持有"
   },
   {
-    "ticker": "MFC",
+    "ticker": "NBIX",
     "action": "HOLD",
     "score": 59,
-    "trend": "强烈看多",
+    "trend": "看多",
     "action_cn": "持有"
   },
   {
-    "ticker": "BLFS",
+    "ticker": "WSFS",
+    "action": "HOLD",
+    "score": 59,
+    "trend": "看多",
+    "action_cn": "持有"
+  },
+  {
+    "ticker": "MSM",
+    "action": "HOLD",
+    "score": 59,
+    "trend": "看多",
+    "action_cn": "持有"
+  },
+  {
+    "ticker": "PNTG",
+    "action": "HOLD",
+    "score": 59,
+    "trend": "看多",
+    "action_cn": "持有"
+  },
+  {
+    "ticker": "PBI",
+    "action": "HOLD",
+    "score": 59,
+    "trend": "看多",
+    "action_cn": "持有"
+  },
+  {
+    "ticker": "PCG",
     "action": "HOLD",
     "score": 59,
     "trend": "看多",
@@ -476,226 +469,233 @@
     "action_cn": "持有"
   },
   {
-    "ticker": "ED",
+    "ticker": "ES",
     "action": "HOLD",
-    "score": 55,
+    "score": 58,
     "trend": "震荡",
     "action_cn": "观望"
   },
   {
-    "ticker": "NBIX",
+    "ticker": "CFFN",
     "action": "HOLD",
-    "score": 55,
+    "score": 58,
     "trend": "震荡",
     "action_cn": "观望"
   },
   {
     "ticker": "SIF",
     "action": "HOLD",
-    "score": 55,
+    "score": 56,
     "trend": "看多",
     "action_cn": "观望"
   },
   {
-    "ticker": "UNF",
+    "ticker": "AMD",
     "action": "HOLD",
     "score": 55,
-    "trend": "震荡",
+    "trend": "震荡偏弱",
     "action_cn": "观望"
   },
   {
-    "ticker": "FRD",
+    "ticker": "WELL",
     "action": "HOLD",
-    "score": 54,
-    "trend": "震荡",
-    "action_cn": "观望"
-  },
-  {
-    "ticker": "ASND",
-    "action": "HOLD",
-    "score": 52,
-    "trend": "看空",
-    "action_cn": "观望"
-  },
-  {
-    "ticker": "ES",
-    "action": "HOLD",
-    "score": 52,
-    "trend": "震荡",
+    "score": 55,
+    "trend": "震荡偏多",
     "action_cn": "观望"
   },
   {
     "ticker": "FBNC",
     "action": "HOLD",
-    "score": 51,
-    "trend": "震荡偏弱",
-    "action_cn": "观望"
-  },
-  {
-    "ticker": "PRG",
-    "action": "HOLD",
-    "score": 51,
-    "trend": "看空",
-    "action_cn": "观望"
-  },
-  {
-    "ticker": "NET",
-    "action": "HOLD",
-    "score": 51,
-    "trend": "震荡偏弱",
-    "action_cn": "观望"
-  },
-  {
-    "ticker": "CRWD",
-    "action": "HOLD",
-    "score": 51,
-    "trend": "看空",
-    "action_cn": "观望"
-  },
-  {
-    "ticker": "CFFN",
-    "action": "HOLD",
-    "score": 51,
+    "score": 55,
     "trend": "震荡偏弱",
     "action_cn": "观望"
   },
   {
     "ticker": "SLDE",
     "action": "HOLD",
-    "score": 51,
-    "trend": "震荡偏空",
-    "action_cn": "观望"
-  },
-  {
-    "ticker": "PNTG",
-    "action": "HOLD",
-    "score": 51,
-    "trend": "震荡偏弱",
-    "action_cn": "观望"
-  },
-  {
-    "ticker": "PBI",
-    "action": "HOLD",
-    "score": 51,
-    "trend": "震荡偏弱",
-    "action_cn": "观望"
-  },
-  {
-    "ticker": "SI",
-    "action": "HOLD",
-    "score": 51,
-    "trend": "看空",
+    "score": 55,
+    "trend": "震荡",
     "action_cn": "观望"
   },
   {
     "ticker": "ONB",
     "action": "HOLD",
-    "score": 51,
+    "score": 55,
     "trend": "震荡",
     "action_cn": "观望"
   },
   {
-    "ticker": "SCHL",
+    "ticker": "UNF",
+    "action": "HOLD",
+    "score": 55,
+    "trend": "震荡偏多",
+    "action_cn": "观望"
+  },
+  {
+    "ticker": "MFC",
+    "action": "HOLD",
+    "score": 54,
+    "trend": "看多",
+    "action_cn": "观望"
+  },
+  {
+    "ticker": "SKWD",
+    "action": "HOLD",
+    "score": 54,
+    "trend": "震荡",
+    "action_cn": "观望"
+  },
+  {
+    "ticker": "WLY",
     "action": "HOLD",
     "score": 51,
     "trend": "震荡偏空",
     "action_cn": "观望"
   },
   {
-    "ticker": "PAYS",
+    "ticker": "TMP",
+    "action": "HOLD",
+    "score": 51,
+    "trend": "看多但超买",
+    "action_cn": "观望"
+  },
+  {
+    "ticker": "DDOG",
     "action": "HOLD",
     "score": 50,
     "trend": "震荡",
     "action_cn": "观望"
   },
   {
-    "ticker": "DDOG",
+    "ticker": "PRG",
     "action": "HOLD",
-    "score": 48,
-    "trend": "看空",
+    "score": 50,
+    "trend": "震荡",
     "action_cn": "观望"
   },
   {
-    "ticker": "GABC",
+    "ticker": "NET",
+    "action": "HOLD",
+    "score": 50,
+    "trend": "震荡偏弱",
+    "action_cn": "观望"
+  },
+  {
+    "ticker": "OOMA",
     "action": "HOLD",
     "score": 48,
-    "trend": "震荡偏弱",
+    "trend": "震荡",
     "action_cn": "观望"
   },
   {
     "ticker": "RSI",
     "action": "HOLD",
     "score": 47,
-    "trend": "看空",
+    "trend": "震荡偏弱",
     "action_cn": "观望"
   },
   {
-    "ticker": "OOMA",
+    "ticker": "RELY",
+    "action": "HOLD",
+    "score": 47,
+    "trend": "震荡偏弱",
+    "action_cn": "观望"
+  },
+  {
+    "ticker": "CRWD",
+    "action": "HOLD",
+    "score": 47,
+    "trend": "震荡偏弱",
+    "action_cn": "观望"
+  },
+  {
+    "ticker": "SI",
     "action": "HOLD",
     "score": 47,
     "trend": "震荡偏空",
     "action_cn": "观望"
   },
   {
-    "ticker": "FRST",
+    "ticker": "ASND",
     "action": "HOLD",
-    "score": 47,
+    "score": 46,
     "trend": "看空",
     "action_cn": "观望"
   },
   {
-    "ticker": "WLY",
+    "ticker": "AMN",
     "action": "HOLD",
     "score": 45,
-    "trend": "看空",
+    "trend": "震荡偏空",
     "action_cn": "观望"
   },
   {
-    "ticker": "SKWD",
+    "ticker": "ED",
     "action": "HOLD",
     "score": 45,
     "trend": "震荡",
     "action_cn": "观望"
   },
   {
-    "ticker": "RELY",
+    "ticker": "PAYS",
     "action": "HOLD",
-    "score": 42,
-    "trend": "震荡偏空",
+    "score": 45,
+    "trend": "震荡偏多",
     "action_cn": "观望"
   },
   {
-    "ticker": "PTRN",
+    "ticker": "FRST",
+    "action": "HOLD",
+    "score": 43,
+    "trend": "看空",
+    "action_cn": "观望"
+  },
+  {
+    "ticker": "SCHL",
+    "action": "HOLD",
+    "score": 42,
+    "trend": "看空",
+    "action_cn": "观望"
+  },
+  {
+    "ticker": "ZETA",
     "action": "SELL",
-    "score": 37,
+    "score": 35,
     "trend": "看空",
     "action_cn": "减仓"
   },
   {
-    "ticker": "TWLO",
+    "ticker": "FRD",
     "action": "SELL",
-    "score": 37,
-    "trend": "看空",
+    "score": 34,
+    "trend": "震荡偏空",
+    "action_cn": "减仓"
+  },
+  {
+    "ticker": "PTRN",
+    "action": "SELL",
+    "score": 34,
+    "trend": "强烈看空",
     "action_cn": "减仓"
   },
   {
     "ticker": "ASTH",
     "action": "SELL",
-    "score": 35,
+    "score": 34,
     "trend": "看空",
     "action_cn": "减仓"
   },
   {
     "ticker": "COMP",
     "action": "SELL",
-    "score": 35,
+    "score": 30,
     "trend": "看空",
     "action_cn": "减仓"
   },
   {
-    "ticker": "ZETA",
+    "ticker": "TWLO",
     "action": "SELL",
-    "score": 35,
+    "score": 30,
     "trend": "看空",
     "action_cn": "减仓"
   }
