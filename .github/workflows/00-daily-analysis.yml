@@ -1,11 +1,6 @@
 name: 每日股票分析
 
 on:
-  # UTC 10:45 = CST 18:45（stock-screener 于 UTC 10:00 扫描, ~15-25min完成）
-  schedule:
-    - cron: '45 10 * * 1-5'    # UTC 10:45 = CST 18:45
-  
-  # 手动触发
   workflow_dispatch:
     inputs:
       mode:
